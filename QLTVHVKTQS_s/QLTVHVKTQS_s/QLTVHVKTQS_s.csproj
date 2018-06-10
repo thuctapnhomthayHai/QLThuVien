@@ -38,6 +38,10 @@
     <Reference Include="DevComponents.DotNetBar2">
       <HintPath>lib\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -92,6 +96,9 @@
     <Compile Include="Login.designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MuonTra\ConnectToSQL.cs" />
+    <Compile Include="MuonTra\MuonTra_BUS.cs" />
+    <Compile Include="MuonTra\MuonTra_DAL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThongKeSach.cs">
@@ -131,6 +138,7 @@
     <EmbeddedResource Include="ThongKeSach.resx">
       <DependentUpon>ThongKeSach.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -158,6 +166,7 @@
     <Content Include="Resources\green_globe_save_603.jpg" />
     <None Include="Resources\imeage_file_2.jpg" />
     <None Include="Resources\if_sign-add_299068.png" />
+    <None Include="Resources\if_export_17365.png" />
     <Content Include="Resources\plus.png" />
     <Content Include="Resources\plus1-img.png" />
     <None Include="Resources\Save-as.png" />

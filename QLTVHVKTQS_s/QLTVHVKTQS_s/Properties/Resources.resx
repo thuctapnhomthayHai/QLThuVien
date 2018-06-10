@@ -127,17 +127,20 @@
   <data name="ce" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imeage_file_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imeage_file_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="close-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trash-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imeage_file_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imeage_file_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="scholem-rr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scholem-rr1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scholem-rr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scholem-rr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,7 +151,7 @@
   <data name="system-search-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\system-search-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="if_export_17365" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_export_17365.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
