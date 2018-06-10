@@ -37,7 +37,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.cbGT = new System.Windows.Forms.ComboBox();
             this.dateNS = new System.Windows.Forms.DateTimePicker();
             this.txtTenDG = new System.Windows.Forms.TextBox();
             this.txtMaDG = new System.Windows.Forms.TextBox();
@@ -53,6 +52,7 @@
             this.dgDocGia = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
+            this.txtGT = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDocGia)).BeginInit();
@@ -69,9 +69,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtDiaChi);
-            this.groupBox1.Controls.Add(this.cbGT);
             this.groupBox1.Controls.Add(this.dateNS);
             this.groupBox1.Controls.Add(this.txtTenDG);
+            this.groupBox1.Controls.Add(this.txtGT);
             this.groupBox1.Controls.Add(this.txtMaDG);
             this.groupBox1.Location = new System.Drawing.Point(26, 125);
             this.groupBox1.Name = "groupBox1";
@@ -155,18 +155,6 @@
             this.txtDiaChi.Size = new System.Drawing.Size(200, 26);
             this.txtDiaChi.TabIndex = 14;
             // 
-            // cbGT
-            // 
-            this.cbGT.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbGT.FormattingEnabled = true;
-            this.cbGT.Items.AddRange(new object[] {
-            "Nam",
-            "Nữ"});
-            this.cbGT.Location = new System.Drawing.Point(95, 189);
-            this.cbGT.Name = "cbGT";
-            this.cbGT.Size = new System.Drawing.Size(200, 26);
-            this.cbGT.TabIndex = 13;
-            // 
             // dateNS
             // 
             this.dateNS.CustomFormat = "dd/mm/yyyy";
@@ -230,6 +218,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 7;
+            this.comboBox1.Click += new System.EventHandler(this.comboBox1_Click);
             // 
             // txtTimKiem
             // 
@@ -249,6 +238,7 @@
             this.btnTK.Text = "Tìm Kiếm";
             this.btnTK.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTK.UseVisualStyleBackColor = true;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // btnXoa
             // 
@@ -260,6 +250,7 @@
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLuu
             // 
@@ -271,6 +262,7 @@
             this.btnLuu.Text = "Lưu";
             this.btnLuu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnSua
             // 
@@ -293,6 +285,7 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dgDocGia
             // 
@@ -303,6 +296,7 @@
             this.dgDocGia.Name = "dgDocGia";
             this.dgDocGia.Size = new System.Drawing.Size(631, 357);
             this.dgDocGia.TabIndex = 7;
+            this.dgDocGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDocGia_CellContentClick);
             // 
             // STT
             // 
@@ -319,6 +313,14 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "ĐỘC GIẢ";
             // 
+            // txtGT
+            // 
+            this.txtGT.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGT.Location = new System.Drawing.Point(95, 191);
+            this.txtGT.Name = "txtGT";
+            this.txtGT.Size = new System.Drawing.Size(200, 26);
+            this.txtGT.TabIndex = 10;
+            // 
             // DocGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -332,6 +334,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DocGia";
             this.Text = "DocGia";
+            this.Load += new System.EventHandler(this.DocGia_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -346,7 +349,6 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.ComboBox cbGT;
         private System.Windows.Forms.DateTimePicker dateNS;
         private System.Windows.Forms.TextBox txtTenDG;
         private System.Windows.Forms.TextBox txtMaDG;
@@ -369,5 +371,6 @@
         private System.Windows.Forms.DataGridView dgDocGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtGT;
     }
 }
