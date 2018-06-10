@@ -32,3 +32,16 @@ C:\Users\dell\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLT
 C:\Users\dell\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.Properties.Resources.resources
 C:\Users\dell\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.ThongKeSach.resources
 C:\Users\dell\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.csproj.GenerateResource.Cache
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\bin\Debug\QLTVHVKTQS_s.exe.config
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.exe
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.pdb
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.csprojResolveAssemblyReference.cache
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.DocGia.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.frmMuonTra.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.frmNhanVien.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.frmMain.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.frmTacPham.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.Login.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.Properties.Resources.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.ThongKeSach.resources
+C:\Users\tobmo\Documents\GitHub\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.csproj.GenerateResource.Cache
