@@ -77,3 +77,7 @@ E:\TTN\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.csproj.CoreCom
 E:\TTN\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.csproj.CopyComplete
 E:\TTN\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.exe
 E:\TTN\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\obj\Debug\QLTVHVKTQS_s.pdb
+D:\Kỳ 6\Thực tập nhóm_TH14\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\bin\Debug\QLTVHVKTQS_s.exe
+D:\Kỳ 6\Thực tập nhóm_TH14\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\bin\Debug\QLTVHVKTQS_s.pdb
+D:\Kỳ 6\Thực tập nhóm_TH14\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Kỳ 6\Thực tập nhóm_TH14\QLThuVien\QLTVHVKTQS_s\QLTVHVKTQS_s\bin\Debug\DevComponents.DotNetBar2.dll

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DocGia));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -39,7 +40,6 @@
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.dateNS = new System.Windows.Forms.DateTimePicker();
             this.txtTenDG = new System.Windows.Forms.TextBox();
-            this.txtGT = new System.Windows.Forms.TextBox();
             this.txtMaDG = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,6 +52,8 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.dgDocGia = new System.Windows.Forms.DataGridView();
             this.label8 = new System.Windows.Forms.Label();
+            this.bt_quaylai = new System.Windows.Forms.Button();
+            this.cbxGT = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDocGia)).BeginInit();
@@ -60,6 +62,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Controls.Add(this.cbxGT);
             this.groupBox1.Controls.Add(this.txtSDT);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -70,7 +73,6 @@
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.dateNS);
             this.groupBox1.Controls.Add(this.txtTenDG);
-            this.groupBox1.Controls.Add(this.txtGT);
             this.groupBox1.Controls.Add(this.txtMaDG);
             this.groupBox1.Location = new System.Drawing.Point(26, 125);
             this.groupBox1.Name = "groupBox1";
@@ -171,14 +173,6 @@
             this.txtTenDG.Name = "txtTenDG";
             this.txtTenDG.Size = new System.Drawing.Size(200, 26);
             this.txtTenDG.TabIndex = 11;
-            // 
-            // txtGT
-            // 
-            this.txtGT.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGT.Location = new System.Drawing.Point(95, 191);
-            this.txtGT.Name = "txtGT";
-            this.txtGT.Size = new System.Drawing.Size(200, 26);
-            this.txtGT.TabIndex = 10;
             // 
             // txtMaDG
             // 
@@ -313,12 +307,34 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "ĐỘC GIẢ";
             // 
+            // bt_quaylai
+            // 
+            this.bt_quaylai.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_quaylai.Image = ((System.Drawing.Image)(resources.GetObject("bt_quaylai.Image")));
+            this.bt_quaylai.Location = new System.Drawing.Point(1, 3);
+            this.bt_quaylai.Name = "bt_quaylai";
+            this.bt_quaylai.Size = new System.Drawing.Size(54, 29);
+            this.bt_quaylai.TabIndex = 14;
+            this.bt_quaylai.UseVisualStyleBackColor = true;
+            this.bt_quaylai.Click += new System.EventHandler(this.bt_quaylai_Click);
+            // 
+            // cbxGT
+            // 
+            this.cbxGT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxGT.FormattingEnabled = true;
+            this.cbxGT.Location = new System.Drawing.Point(95, 191);
+            this.cbxGT.Name = "cbxGT";
+            this.cbxGT.Size = new System.Drawing.Size(200, 27);
+            this.cbxGT.TabIndex = 22;
+            this.cbxGT.Click += new System.EventHandler(this.cbxGT_Click);
+            // 
             // DocGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1004, 504);
+            this.Controls.Add(this.bt_quaylai);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dgDocGia);
             this.Controls.Add(this.groupBox2);
@@ -362,6 +378,7 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.DataGridView dgDocGia;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtGT;
+        private System.Windows.Forms.Button bt_quaylai;
+        private System.Windows.Forms.ComboBox cbxGT;
     }
 }

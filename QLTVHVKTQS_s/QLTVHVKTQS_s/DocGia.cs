@@ -65,7 +65,7 @@ namespace QLTVHVKTQS_s
             txtMaDG.Text = "";
             txtTenDG.Text = "";
             dateNS.Text = "";
-            txtGT.Text = "";
+            cbxGT.Text = "";
             txtSDT.Text = "";
             txtDiaChi.Text = "";
         }
@@ -86,7 +86,7 @@ namespace QLTVHVKTQS_s
             txtMaDG.Text = dgDocGia.CurrentRow.Cells["MaDG"].Value.ToString();
             txtTenDG.Text = dgDocGia.CurrentRow.Cells["HoTen"].Value.ToString();
             dateNS.Text = dgDocGia.CurrentRow.Cells["NgaySinh"].Value.ToString();
-            txtGT.Text = dgDocGia.CurrentRow.Cells["GioiTinh"].Value.ToString();
+            cbxGT.Text = dgDocGia.CurrentRow.Cells["GioiTinh"].Value.ToString();
             txtSDT.Text = dgDocGia.CurrentRow.Cells["SDT"].Value.ToString();
             txtDiaChi.Text = dgDocGia.CurrentRow.Cells["DiaChi"].Value.ToString();
 
@@ -116,10 +116,10 @@ namespace QLTVHVKTQS_s
                 dateNS.Focus();
                 return;
             }
-            if (txtGT.Text.Trim().Length == 0)
+            if (cbxGT.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Bạn phải nhập giới tính", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtGT.Focus();
+                cbxGT.Focus();
                 return;
             }
             if (txtSDT.Text == "  ")
@@ -145,7 +145,7 @@ namespace QLTVHVKTQS_s
                 txtMaDG.Text = "";
                 return;
             }
-            sql = "INSERT INTO DocGia(MaDG,HoTen,NgaySinh,GioiTinh,SDT,DiaChi) VALUES (N'" + txtMaDG.Text.Trim() + "',N'" + txtTenDG.Text.Trim() + "','" + dateNS.Text.Trim() + "',N'" + txtGT.Text + "',N'" + txtSDT.Text.Trim() + "',N'" + txtDiaChi.Text.Trim() + "')";
+            sql = "INSERT INTO DocGia(MaDG,HoTen,NgaySinh,GioiTinh,SDT,DiaChi) VALUES (N'" + txtMaDG.Text.Trim() + "',N'" + txtTenDG.Text.Trim() + "','" + dateNS.Text.Trim() + "',N'" + cbxGT.Text + "',N'" + txtSDT.Text.Trim() + "',N'" + txtDiaChi.Text.Trim() + "')";
             //sql1 = "insert into NhaSanXuat(MaNhaSX,TenNhaSX) Values (N'"+null + "',N'" + txtTenNSX.Text.Trim() +"') ";
             //sql2 = "insert into LoaiHang(MaLoai,TenLoai) Values (N'" + null + "',N'" + txtTenLoai.Text.Trim() + "') ";
             Connection.RunSQL(sql);
@@ -218,6 +218,22 @@ namespace QLTVHVKTQS_s
 
             comboBox1.Items.Add(new { Text = "Mã độc giả", Value = "Mã độc giả" });
             comboBox1.Items.Add(new { Text = "Tên độc giả", Value = "Tên độc giả" });
+        }
+
+        private void bt_quaylai_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMain main = new frmMain();
+            main.ShowDialog();
+        }
+
+        private void cbxGT_Click(object sender, EventArgs e)
+        {
+            cbxGT.DisplayMember = "Text";
+            cbxGT.ValueMember = "Value";
+
+            cbxGT.Items.Add(new { Text = "Nữ", Value = "Nữ" });
+            cbxGT.Items.Add(new { Text = "Nam", Value = "Nam" });
         }
     }
 }
