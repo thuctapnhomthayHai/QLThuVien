@@ -39,6 +39,7 @@
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.dateNS = new System.Windows.Forms.DateTimePicker();
             this.txtTenDG = new System.Windows.Forms.TextBox();
+            this.txtGT = new System.Windows.Forms.TextBox();
             this.txtMaDG = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,9 +51,7 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.dgDocGia = new System.Windows.Forms.DataGridView();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtGT = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDocGia)).BeginInit();
@@ -173,6 +172,14 @@
             this.txtTenDG.Size = new System.Drawing.Size(200, 26);
             this.txtTenDG.TabIndex = 11;
             // 
+            // txtGT
+            // 
+            this.txtGT.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGT.Location = new System.Drawing.Point(95, 191);
+            this.txtGT.Name = "txtGT";
+            this.txtGT.Size = new System.Drawing.Size(200, 26);
+            this.txtGT.TabIndex = 10;
+            // 
             // txtMaDG
             // 
             this.txtMaDG.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -290,18 +297,11 @@
             // dgDocGia
             // 
             this.dgDocGia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgDocGia.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.STT});
             this.dgDocGia.Location = new System.Drawing.Point(355, 125);
             this.dgDocGia.Name = "dgDocGia";
             this.dgDocGia.Size = new System.Drawing.Size(631, 357);
             this.dgDocGia.TabIndex = 7;
             this.dgDocGia.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDocGia_CellContentClick);
-            // 
-            // STT
-            // 
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
             // 
             // label8
             // 
@@ -312,14 +312,6 @@
             this.label8.Size = new System.Drawing.Size(119, 33);
             this.label8.TabIndex = 8;
             this.label8.Text = "ĐỘC GIẢ";
-            // 
-            // txtGT
-            // 
-            this.txtGT.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGT.Location = new System.Drawing.Point(95, 191);
-            this.txtGT.Name = "txtGT";
-            this.txtGT.Size = new System.Drawing.Size(200, 26);
-            this.txtGT.TabIndex = 10;
             // 
             // DocGia
             // 
@@ -369,7 +361,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.DataGridView dgDocGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtGT;
     }

@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 
 namespace QLTVHVKTQS_s
@@ -23,7 +22,7 @@ namespace QLTVHVKTQS_s
         private void DocGia_Load(object sender, EventArgs e)
         {
             Connection.Connect();
-            
+            LoadDataGridView();
         }
         public void LoadDataGridView()
         {
@@ -44,7 +43,7 @@ namespace QLTVHVKTQS_s
             dgDocGia.Columns[2].Width = 200;
             dgDocGia.Columns[3].Width = 200;
             dgDocGia.Columns[4].Width = 150;
-            dgDocGia.Columns[4].Width = 150;
+            dgDocGia.Columns[5].Width = 150;
 
             dgDocGia.AllowUserToAddRows = false;
             dgDocGia.EditMode = DataGridViewEditMode.EditProgrammatically;
@@ -137,16 +136,16 @@ namespace QLTVHVKTQS_s
             }
 
 
-            sql = "SELECT MaDG FROM DocGia WHERE MaHang=N'" + txtMaDG.Text.Trim() + "'";
+            sql = "SELECT MaDG FROM DocGia WHERE MaDG=N'" + txtMaDG.Text.Trim() + "'";
 
             if (Connection.CheckKey(sql))
             {
-                MessageBox.Show("Mã  hàng này đã có, bạn phải nhập mã khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Mã  độc giả này đã có, bạn phải nhập mã khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtMaDG.Focus();
                 txtMaDG.Text = "";
                 return;
             }
-            sql = "INSERT INTO DocGia(MaDG,TenDG,NgaySinh,GioiTinh,SDT,DiaChi) VALUES (N'" + txtMaDG.Text.Trim() + "',N'" + txtTenDG.Text.Trim() + "','" + dateNS.Text.Trim() + "',N'" + txtGT.Text + "',N'" + txtSDT.Text.Trim() + "',N'" + txtDiaChi.Text.Trim() + "')";
+            sql = "INSERT INTO DocGia(MaDG,HoTen,NgaySinh,GioiTinh,SDT,DiaChi) VALUES (N'" + txtMaDG.Text.Trim() + "',N'" + txtTenDG.Text.Trim() + "','" + dateNS.Text.Trim() + "',N'" + txtGT.Text + "',N'" + txtSDT.Text.Trim() + "',N'" + txtDiaChi.Text.Trim() + "')";
             //sql1 = "insert into NhaSanXuat(MaNhaSX,TenNhaSX) Values (N'"+null + "',N'" + txtTenNSX.Text.Trim() +"') ";
             //sql2 = "insert into LoaiHang(MaLoai,TenLoai) Values (N'" + null + "',N'" + txtTenLoai.Text.Trim() + "') ";
             Connection.RunSQL(sql);
@@ -157,7 +156,7 @@ namespace QLTVHVKTQS_s
             btnSua.Enabled = true;
             //btnHuy.Enabled = false;
             btnLuu.Enabled = false;
-            txtMaDG.Enabled = false;
+           // txtMaDG.Enabled = false;
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -200,13 +199,13 @@ namespace QLTVHVKTQS_s
             }
             else
             {
-                if (comboBox1.Text == "Mã hàng")
+                if (comboBox1.Text == "Mã độc giả")
                 {
                     dgDocGia.DataSource = Connection.GetDataToTable("select * from DocGia where MaDG like '%" + txtTimKiem.Text.Trim() + "%'");
                 }
-                if (comboBox1.Text == "Tên hàng")
+                if (comboBox1.Text == "Tên độc giả")
                 {
-                    dgDocGia.DataSource = Connection.GetDataToTable("select * from DocGia where TenDG like '%" + txtTimKiem.Text.Trim() + "%'");
+                    dgDocGia.DataSource = Connection.GetDataToTable("select * from DocGia where HoTen like '%" + txtTimKiem.Text.Trim() + "%'");
                 }
 
             }

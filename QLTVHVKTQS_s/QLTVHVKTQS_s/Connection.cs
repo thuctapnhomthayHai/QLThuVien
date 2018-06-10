@@ -17,7 +17,7 @@ namespace QLTVHVKTQS_s
         public static void Connect()
         {
             Con = new SqlConnection();   //Khởi tạo đối tượng
-            Con.ConnectionString = @"Data Source=DESKTOP-76IRRSL\SQLEXPRESS;Initial Catalog=QLThuVien;Integrated Security=True";
+            Con.ConnectionString = @"Data Source=PC\THUYDUNG;Initial Catalog=QLThuVien;Integrated Security=True";
             Con.Open();//mở kết nối
             //kiểm tra kết nối
             if (Con.State == ConnectionState.Open)

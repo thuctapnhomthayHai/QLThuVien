@@ -48,6 +48,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.btnIndanhsach = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -107,8 +108,8 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.lsvMuonTra);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(420, 60);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(437, 98);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(769, 373);
             this.groupBox3.TabIndex = 16;
@@ -203,7 +204,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(137, 31);
+            this.label7.Location = new System.Drawing.Point(150, 39);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(154, 33);
             this.label7.TabIndex = 14;
@@ -223,7 +224,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 76);
+            this.groupBox1.Location = new System.Drawing.Point(15, 98);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(402, 357);
             this.groupBox1.TabIndex = 15;
@@ -233,23 +234,36 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox2.Controls.Add(this.btnThoat);
             this.groupBox2.Controls.Add(this.btnIndanhsach);
             this.groupBox2.Controls.Add(this.btnHuy);
             this.groupBox2.Controls.Add(this.btnXoa);
             this.groupBox2.Controls.Add(this.btnLuu);
             this.groupBox2.Controls.Add(this.btnSua);
             this.groupBox2.Controls.Add(this.btnThem);
-            this.groupBox2.Location = new System.Drawing.Point(262, 451);
+            this.groupBox2.Location = new System.Drawing.Point(251, 509);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(666, 85);
+            this.groupBox2.Size = new System.Drawing.Size(727, 85);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Image = global::QLTVHVKTQS_s.Properties.Resources.close_321;
+            this.btnThoat.Location = new System.Drawing.Point(454, 19);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(75, 39);
+            this.btnThoat.TabIndex = 20;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnIndanhsach
             // 
             this.btnIndanhsach.Image = global::QLTVHVKTQS_s.Properties.Resources.if_export_17365;
             this.btnIndanhsach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIndanhsach.Location = new System.Drawing.Point(468, 19);
+            this.btnIndanhsach.Location = new System.Drawing.Point(547, 19);
             this.btnIndanhsach.Name = "btnIndanhsach";
             this.btnIndanhsach.Padding = new System.Windows.Forms.Padding(3);
             this.btnIndanhsach.Size = new System.Drawing.Size(134, 39);
@@ -262,7 +276,7 @@
             // btnHuy
             // 
             this.btnHuy.Image = global::QLTVHVKTQS_s.Properties.Resources.close_321;
-            this.btnHuy.Location = new System.Drawing.Point(372, 19);
+            this.btnHuy.Location = new System.Drawing.Point(373, 19);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(75, 39);
             this.btnHuy.TabIndex = 5;
@@ -324,7 +338,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1211, 568);
+            this.ClientSize = new System.Drawing.Size(1257, 618);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.groupBox1);
@@ -371,5 +385,6 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnThoat;
     }
 }

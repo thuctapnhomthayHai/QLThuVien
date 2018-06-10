@@ -41,8 +41,8 @@ namespace QLTVHVKTQS_s
         private void mượnTrảSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //frmMuonTra mt = new frmMuonTra();
-            //mt.ShowDialog();
+            frmMuonTra mt = new frmMuonTra();
+            mt.ShowDialog();
             this.Close();  
         }
 
