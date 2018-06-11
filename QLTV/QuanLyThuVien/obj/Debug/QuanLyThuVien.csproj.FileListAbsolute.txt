@@ -77,3 +77,30 @@ D:\TaiLieuMonHoc\[Sharecode.vn] Code chuong trinh quan ly thu vien full code c#\
 D:\TaiLieuMonHoc\[Sharecode.vn] Code chuong trinh quan ly thu vien full code c#\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttSach.resources
 D:\TaiLieuMonHoc\[Sharecode.vn] Code chuong trinh quan ly thu vien full code c#\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttTacgia.resources
 D:\TaiLieuMonHoc\[Sharecode.vn] Code chuong trinh quan ly thu vien full code c#\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.BCDocGia.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.BCTinhTrangSach.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatdocgia.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatLv.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatnhanvien.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatNXB.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatsach.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.capnhatTG.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.DoiMatKhau.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.KiemTraTTNhanVien.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Main.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.TaoTaiKhoan.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.thongtinmuon.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.timkiem.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.TimkiemDG.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttDocgia.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttLinhVuc.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttNXB.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttSach.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.ttTacgia.resources
+C:\Users\dell\Documents\GitHub\QLThuVien\QLTV\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache

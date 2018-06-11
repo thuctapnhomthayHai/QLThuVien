@@ -28,7 +28,7 @@ namespace QuanLyThuVien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cls.LoadData2DataGridView(dataGridView1, "select*from tblSach where " + comboBox1.Text + " like'%" + textBox1.Text + "%'");
+            cls.LoadData2DataGridView(dataGridView1, "select*from tblSach where " + comboBox1.Text + " like N'%" + textBox1.Text + "%'");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -44,6 +44,11 @@ namespace QuanLyThuVien
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

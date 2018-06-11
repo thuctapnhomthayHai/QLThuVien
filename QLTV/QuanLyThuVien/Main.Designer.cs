@@ -93,6 +93,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.hướngDaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -179,7 +180,8 @@
             this.tìmKiếmToolStripMenuItem,
             this.báoCáoToolStripMenuItem,
             this.trợGiúpToolStripMenuItem,
-            this.thoátToolStripMenuItem1});
+            this.thoátToolStripMenuItem1,
+            this.hướngDaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -636,6 +638,12 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
+            // hướngDaToolStripMenuItem
+            // 
+            this.hướngDaToolStripMenuItem.Name = "hướngDaToolStripMenuItem";
+            this.hướngDaToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
+            this.hướngDaToolStripMenuItem.Text = "Hướng dẫn sử dụng";
+            // 
             // Main
             // 
             this.AcceptButton = this.button1;
@@ -736,6 +744,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ToolStripMenuItem hướngDaToolStripMenuItem;
     }
 }
 
