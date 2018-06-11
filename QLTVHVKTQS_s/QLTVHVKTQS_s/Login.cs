@@ -37,7 +37,7 @@ namespace QLTVHVKTQS_s
         {
             try
             {
-                SqlConnection conn = new SqlConnection(@"Data Source=PC\THUYDUNG;Initial Catalog=QLThuVien;Integrated Security=True");
+                SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=QLThuVien;Integrated Security=True");
                 conn.Open();
                 string sql = "select *from Users where Username = '" + txtUsername.Text.Trim() + "' and pass = '" + txtPassword.Text.Trim() + "'";
                 SqlCommand cmd = new SqlCommand(sql, conn);

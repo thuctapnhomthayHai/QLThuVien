@@ -41,7 +41,7 @@ namespace QLTVHVKTQS_s
         private void mượnTrảSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmMuonTra mt = new frmMuonTra();
+            frmNghiepVu mt = new frmNghiepVu();
             mt.ShowDialog();
             this.Close();  
         }
@@ -63,6 +63,14 @@ namespace QLTVHVKTQS_s
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
         
+        }
+
+        private void nhàXuấtBảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            NXB nxb = new NXB();
+            nxb.ShowDialog();
+            this.Close(); 
         }
 
      
